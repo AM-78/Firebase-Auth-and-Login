@@ -49,6 +49,7 @@ signupbtn.addEventListener("click", () => {
         console.log(userCred)
         emailBox.value=""
         passwordBox.value=""
+        nameBox.value=""
         alert("You Can Go Back To Login Page!")
     })
     .catch((err) => {

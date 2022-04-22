@@ -93,9 +93,9 @@ onAuthStateChanged(auth, (user) => {
         document.getElementById("mainHeading").innerHTML = ("Welcome: " + name);
 
         if (isVerified) {
-            document.getElementById("para").innerHTML = "Your email is verified!"
+            document.getElementById("para").innerHTML = "Your email is verified! ✔️"
         } else {
-            document.getElementById("para").innerHTML = "Please Verify Your Email!"
+            document.getElementById("para").innerHTML = "Your Email is NOT Verified! ❌ <br><br>Please see your inbox for verification link."
         }
 
 
