@@ -72,6 +72,7 @@ loginbtn.addEventListener("click", () => {
 logoutbtn2.addEventListener("click", () => {
     signOut(auth)
         .then(() => {
+            passwordBox.value=""
             console.log("signed out")
         })
         .catch((err) => {
